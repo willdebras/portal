@@ -1,16 +1,14 @@
-# Three.js Journey
+# Three.js Journey Portal
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+## The scene
 
-``` bash
-# Install dependencies (only the first time)
-npm install
+The portal scene was created using Blender to create low poly textures and materials. The scene included various lighting (from the portal, lamps, and overhead). The scene's textures were UV unwrapped, baked, and exported
 
-# Run the local server at localhost:8080
-npm run dev
+## The experience
 
-# Build for production in the dist/ directory
-npm run build
-```
+The model was imported into three.js and the baked textures were applied. Special effects like animated fireflies and a perlin noise portal were added via shaders. Outside of the lesson work, the scene features additional raycasting work to allow the portal to 'open up' on hover and lets the user 'enter the portal,' i.e. go to a hyperlink.
+
+## Deployment
+
+The application is deployed on my Vercel account:
+https://hyperlink-portal.vercel.app/
